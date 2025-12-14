@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://dystopia.network",
-		"sources": "https://github.com/NikokiNR/DystopianCards-fabric-1.21.1"
+		"sources": "https://github.com/NikokiNR/DystopianCards"
 	},
 	"license": "MIT",
 	"icon": "assets/dystopiancards/icon.png",
