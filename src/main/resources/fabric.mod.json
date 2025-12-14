@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "dystopiancards",
+	"version": "${version}",
+	"name": "Dystopian Cards",
+	"description": "Trading cards for Dystopia Network",
+	"authors": [
+		"Nikonii_"
+	],
+	"contact": {
+		"homepage": "https://dystopia.network",
+		"sources": "https://github.com/NikokiNR/DystopianCards-fabric-1.21.1"
+	},
+	"license": "MIT",
+	"icon": "assets/dystopiancards/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.niko.dystopiancards.DystopianCards"
+		],
+		"fabric-datagen": [
+			"net.niko.dystopiancards.DystopianCardsDataGenerator"
+		],
+		"client": [
+			"net.niko.dystopiancards.DystopianCardsClient"
+		]
+	},
+	"mixins": [
+		"dystopiancards.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
