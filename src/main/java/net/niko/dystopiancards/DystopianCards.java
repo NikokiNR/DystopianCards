@@ -2,6 +2,7 @@ package net.niko.dystopiancards;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.niko.dystopiancards.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,6 @@ public class DystopianCards implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
