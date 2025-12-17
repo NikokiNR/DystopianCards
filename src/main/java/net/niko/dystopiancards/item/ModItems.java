@@ -11,6 +11,7 @@ import net.niko.dystopiancards.DystopianCards;
 public class ModItems {
 
     public static final Item CARD_BLANK = registerItem("card_blank", new Item(new Item.Settings()));
+    public static final Item CARD_SCRAP = registerItem("card_scrap", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(DystopianCards.MOD_ID, name), item);
@@ -18,9 +19,5 @@ public class ModItems {
 
     public static void registerModItems() {
         DystopianCards.LOGGER.info("Registering Mod Items for " + DystopianCards.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
-            entries.add(CARD_BLANK);
-        });
     }
 }

@@ -1,3 +1,7 @@
 {
-  "item.dystopiancards.card_blank": "Blank Card"
+  "item.dystopiancards.card_blank": "Blank Card",
+  "item.dystopiancards.card_scrap": "Card Scrap",
+
+  "itemgroup.dystopiancards.dystopian_items": "Dystopian Items",
+  "itemgroup.dystopiancards.dystopian_cards": "Dystopian Cards"
 }
