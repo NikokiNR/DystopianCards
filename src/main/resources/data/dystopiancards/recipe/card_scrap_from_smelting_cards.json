@@ -5,7 +5,7 @@
   "experience": 0.2,
   "group": "card_scrap",
   "ingredient": {
-    "item": "dystopiancards:card_blank"
+    "tag": "dystopiancards:cards"
   },
   "result": {
     "id": "dystopiancards:card_scrap"

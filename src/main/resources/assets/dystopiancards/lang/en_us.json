@@ -1,7 +1,16 @@
 {
-  "item.dystopiancards.card_blank": "Blank Card",
   "item.dystopiancards.card_scrap": "Card Scrap",
+  "tooltip.dystopiancards.card_scrap": "SCRAP",
   "block.dystopiancards.card_scrap_block": "Block of Card Scrap",
+  "tooltip.dystopiancards.card_scrap_block": "BLOCK OF SCRAP",
+
+  "item.dystopiancards.card_blank": "Blank Card",
+  "tooltip.dystopiancards.card_blank_1": "CARD",
+  "tooltip.dystopiancards.card_blank_2": "Press §eShift§r for more information!",
+  "tooltip.dystopiancards.card_blank.shift_down_1": "§7§oINFO§r",
+  "tooltip.dystopiancards.card_blank.shift_down_2": "§7§oINFO§r",
+  "tooltip.dystopiancards.card_blank.shift_down_3": "§7§oINFO§r",
+  "tooltip.dystopiancards.card_blank.shift_down_4": "§7§oINFO§r",
 
   "itemgroup.dystopiancards.dystopian_items": "Dystopian Items",
   "itemgroup.dystopiancards.dystopian_cards": "Dystopian Cards"
