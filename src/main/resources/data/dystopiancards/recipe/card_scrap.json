@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dystopiancards:card_scrap_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "dystopiancards:card_scrap"
+  }
+}

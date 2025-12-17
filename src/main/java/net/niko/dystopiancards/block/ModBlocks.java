@@ -14,8 +14,7 @@ public class ModBlocks {
 
     public static final Block CARD_SCRAP_BLOCK = registerBlock("card_scrap_block",
             new Block(AbstractBlock.Settings.create()
-                    .strength(4f)
-                    .requiresTool()
+                    .strength(1f)
                     .sounds(BlockSoundGroup.MOSS_BLOCK)
             ));
 

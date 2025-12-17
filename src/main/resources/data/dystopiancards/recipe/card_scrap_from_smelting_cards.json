@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "card_scrap",
+  "ingredient": {
+    "item": "dystopiancards:card_blank"
+  },
+  "result": {
+    "id": "dystopiancards:card_scrap"
+  }
+}

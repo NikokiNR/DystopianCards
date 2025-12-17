@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "card_scrap",
+  "ingredient": {
+    "item": "dystopiancards:card_blank"
+  },
+  "result": {
+    "id": "dystopiancards:card_scrap"
+  }
+}
