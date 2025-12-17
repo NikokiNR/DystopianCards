@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_card_00_blank": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dystopiancards:card_00_blank"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dystopiancards:card_scrap_from_blasting_card_00_blank"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_card_00_blank"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dystopiancards:card_scrap_from_blasting_card_00_blank"
+    ]
+  }
+}

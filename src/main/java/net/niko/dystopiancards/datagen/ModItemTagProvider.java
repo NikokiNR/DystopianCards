@@ -17,7 +17,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 
         getOrCreateTagBuilder(ModTags.Items.CARDS)
-                .add(ModItems.CARD_BLANK);
-        
+                .add(ModItems.CARD_00_BLANK)
+                .add(ModItems.CARD_05_DIAMOND_PICKAXE);
     }
 }

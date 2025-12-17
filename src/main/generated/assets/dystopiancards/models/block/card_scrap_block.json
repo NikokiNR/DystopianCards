@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dystopiancards:block/card_scrap_block"
+  }
+}

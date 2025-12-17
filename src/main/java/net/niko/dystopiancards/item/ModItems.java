@@ -16,21 +16,35 @@ import java.util.List;
 
 public class ModItems {
 
-    public static final Item CARD_BLANK = registerItem("card_blank", new Item(new Item.Settings()) {
+    public static final Item CARD_00_BLANK = registerItem("card_00_blank", new Item(new Item.Settings()) {
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
             if(Screen.hasShiftDown()) {
-                tooltip.add(Text.translatable("tooltip.dystopiancards.card_blank.shift_down_1"));
-                tooltip.add(Text.translatable("tooltip.dystopiancards.card_blank.shift_down_2"));
-                tooltip.add(Text.translatable("tooltip.dystopiancards.card_blank.shift_down_3"));
-                tooltip.add(Text.translatable("tooltip.dystopiancards.card_blank.shift_down_4"));
+                tooltip.add(Text.translatable("tooltip.dystopiancards.card_00_blank.shift_down_1"));
+                tooltip.add(Text.translatable("tooltip.dystopiancards.card_00_blank.shift_down_2"));
+                tooltip.add(Text.translatable("tooltip.dystopiancards.card_00_blank.shift_down_3"));
+                tooltip.add(Text.translatable("tooltip.dystopiancards.card_00_blank.shift_down_4"));
             } else {
-                tooltip.add(Text.translatable("tooltip.dystopiancards.card_blank_1"));
-                tooltip.add(Text.translatable("tooltip.dystopiancards.card_blank_2"));
+                tooltip.add(Text.translatable("tooltip.dystopiancards.card_00_blank_1"));
+                tooltip.add(Text.translatable("tooltip.dystopiancards.card_00_blank_2"));
             }
             super.appendTooltip(stack, context, tooltip, type);
         }
     });
+    public static final Item CARD_05_DIAMOND_PICKAXE = registerItem("card_05_diamond_pickaxe", new Item(new Item.Settings()) {
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            if(Screen.hasShiftDown()) {
+                tooltip.add(Text.translatable("tooltip.dystopiancards.card_05_diamond_pickaxe.shift_down_1"));
+                tooltip.add(Text.translatable("tooltip.dystopiancards.card_05_diamond_pickaxe.shift_down_2"));
+            } else {
+                tooltip.add(Text.translatable("tooltip.dystopiancards.card_05_diamond_pickaxe_1"));
+                tooltip.add(Text.translatable("tooltip.dystopiancards.card_05_diamond_pickaxe_2"));
+            }
+            super.appendTooltip(stack, context, tooltip, type);
+        }
+    });
+
     public static final Item CARD_SCRAP = registerItem("card_scrap", new Item(new Item.Settings()) {
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {

@@ -25,11 +25,12 @@ public class ModItemGroups {
 
     public static final ItemGroup DYSTOPIAN_CARDS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(DystopianCards.MOD_ID, "dystopian_cards"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.CARD_BLANK))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.CARD_00_BLANK))
                     .displayName(Text.translatable("itemgroup.dystopiancards.dystopian_cards"))
                     .entries((displayContext, entries) -> {
 
-                      entries.add(ModItems.CARD_BLANK);
+                      entries.add(ModItems.CARD_00_BLANK);
+                      entries.add(ModItems.CARD_05_DIAMOND_PICKAXE);
 
                     }).build());
 

@@ -23,7 +23,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     public void generate(RecipeExporter recipeExporter) {
 
         List<ItemConvertible> CARDS = List.of(
-                ModItems.CARD_BLANK
+                ModItems.CARD_00_BLANK,
+                ModItems.CARD_05_DIAMOND_PICKAXE
         );
 
         offerSmelting(recipeExporter, CARDS, RecipeCategory.MISC, ModItems.CARD_SCRAP, 0.25f, 200, "card_scrap");
