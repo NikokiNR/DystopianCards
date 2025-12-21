@@ -1,7 +1,6 @@
 package net.niko.dystopiancards;
 
 import net.fabricmc.api.ModInitializer;
-
 import net.niko.dystopiancards.block.ModBlocks;
 import net.niko.dystopiancards.item.ModItemGroups;
 import net.niko.dystopiancards.item.ModItems;
